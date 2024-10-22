@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Fim da Estrada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <!-- Capítulo 1: A Carta de Despedida -->
+        <div class="passo ativo" id="passo-0">
+            <img src="img/carta.png" alt="">
+            <p class="texto">Você é Ana, uma jovem de 20 anos que acaba de retornar à sua cidade natal, Serra Azul, após a morte misteriosa de sua mãe. Ao explorar a casa, você encontra uma carta de despedida, mas parte do texto está rasgado. A carta sugere que sua mãe queria revelar um grande segredo antes de morrer.</p>
+            <p>Escolha 1:</p>
+            <button class="btn-proximo" data-proximo="1">Investigar pistas sobre o texto rasgado.</button>
+            <button class="btn-proximo" data-proximo="1">Ignorar a carta e focar no diário.</button>
+        </div>
+
+        <!-- Capítulo 2: O Amigo de Infância -->
+        <div class="passo" id="passo-1">
+            <img src="img/amigo.png" alt="">
+            <p>Durante suas investigações, você reencontra Lucas, um amigo de infância que oferece ajuda. Ele parece saber mais sobre os mistérios de Serra Azul do que deixa transparecer.</p>
+            <p>Escolha 2:</p>
+            <button class="btn-proximo" data-proximo="2">Aceitar a ajuda de Lucas e confiar nele.</button>
+            <button class="btn-proximo" data-proximo="2">Recusar a ajuda de Lucas e seguir sozinha.</button>
+        </div>
+
+        <!-- Capítulo 3: O Ritual da Lua Vermelha -->
+        <div class="passo" id="passo-2">
+            <img src="img/ritual.png" alt="">
+            <p>Você descobre que um antigo ritual, chamado "A Lua Vermelha", ainda é realizado em Serra Azul para afastar uma maldição. Sua mãe fez anotações sobre isso no diário.</p>
+            <p>Escolha 3:</p>
+            <button class="btn-proximo" data-proximo="3">Interromper o ritual e desmascarar as mentiras.</button>
+            <button class="btn-proximo" data-proximo="3">Participar do ritual para descobrir a verdade.</button>
+        </div>
+
+        <!-- Capítulo 4: A Verdade sobre a Morte da Mãe -->
+        <div class="passo" id="passo-3">
+            <img src="img/verdade.png" alt="">
+            <p>Você descobre provas de que a morte de sua mãe pode ter sido um sacrifício. O chefe da polícia local, amigo da sua mãe, pode estar envolvido.</p>
+            <p>Escolha 4:</p>
+            <button class="btn-proximo" data-proximo="4">Confrontar diretamente o chefe da polícia.</button>
+            <button class="btn-proximo" data-proximo="4">Seguir as pistas em segredo, sem confrontá-lo.</button>
+        </div>
+
+        <!-- Capítulo 5: A Escolha Final -->
+        <div class="passo" id="passo-4">
+            <img src="img/objeto.png" alt="">
+            <p>Você encontra um objeto antigo no porão da igreja que está ligado à maldição da cidade. Esse objeto é a chave para destruir ou controlar o destino de Serra Azul.</p>
+            <p>Escolha 5:</p>
+            <button class="btn-proximo" data-proximo="5">Destruir o objeto e acabar com a maldição.</button>
+            <button class="btn-proximo" data-proximo="5">Usar o objeto para garantir a segurança da cidade.</button>
+        </div>
+
+        <!-- Conclusão -->
+        <div class="passo" id="passo-5">
+            <img src="img/final.png" alt="">
+            <p>Você revelou toda a verdade sobre sua mãe e o passado de Serra Azul, moldando seu destino e o da cidade.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.passo{
+    display: none;
+    justify-content: center;
+    text-align: center;
+    padding: 4.5%;
+}
+.passo.ativo{
+    display: block;
+}
+body{
+    background: green;
+}
+body{
+    margin: 0px;
+}
